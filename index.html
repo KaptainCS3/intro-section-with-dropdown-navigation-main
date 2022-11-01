@@ -1,0 +1,271 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./index.css">
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+</head>
+<body> 
+    <nav class="nav">
+      <div class="wrapper">
+        <div class="nav-wrapper">
+          <p class="logo"><img src="./images/logo.svg" alt=""></p>
+          <div class="header">
+            <div class="navItems dropdown" data-dropdown>
+              <a class="link navLinks" id="hover-f" data-dropdown-button>Features
+                <span><img src="./images/icon-arrow-down.svg" alt="" class="toggle"></span>
+              </a>
+              <ul class="inner-list-features dropdown-menu">
+                <li class="navItems-inner">
+                  <a href="#" class="navLinks-inner">
+                    <span>
+                      <img src="./images/icon-todo.svg" alt="icon-todo">
+                    </span>
+                    Todo List
+                  </a>
+                </li>
+                <li class="navItems-inner">
+                  <a href="#" class="navLinks-inner">
+                    <span>
+                      <img src="./images/icon-calendar.svg" alt="icon-calendar">
+                    </span>
+                    Calendar
+                  </a>
+                </li>
+                <li class="navItems-inner">
+                  <a href="#" class="navLinks-inner">
+                    <span>
+                      <img src="./images/icon-reminders.svg" alt="icon-reminders">
+                    </span>
+                    Reminders
+                  </a>
+                </li>
+                <li class="navItems-inner">
+                  <a href="#" class="navLinks-inner">
+                    <span>
+                      <img src="./images/icon-planning.svg" alt="icon-planning">
+                    </span>
+                    Planning
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="navItems dropdown" data-dropdown>
+              <a class="navLinks link" id="hover-c" data-dropdown-button>Company
+                <span><img src="./images/icon-arrow-down.svg" alt="" class="toggle"></span>
+              </a>
+              <ul class="inner-list-company dropdown-menu">
+                <li class="navItems-inner">
+                  <a href="#" class="navLinks-inner link">History
+                  </a>
+                </li>
+                <li class="navItems-inner">
+                  <a href="#" class="navLinks-inner link">Our Team
+                  </a>
+                </li>
+                <li class="navItems-inner">
+                  <a href="#" class="navLinks-inner link">Blog
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <li class="navItems">
+              <a href="#" class="navLinks link" id="hover-cr">Careers</a>
+            </li>
+            <li class="navItems">
+              <a href="#" class="navLinks link" id="hover-a">About</a>
+            </li>
+          <!-- </ul> -->
+        </div>
+    </div>
+
+
+        <ul class="login-register-btn">
+          <li class="navItems">
+            <a href="#" class="navLinks link">Login</a>
+          </li>
+          <li class="navItems">
+            <a href="#" class="navLinks brd link">Register</a>
+          </li>
+        </ul>
+      </div>
+      </div>
+    </nav>
+
+
+    <div class="side__panel">
+      <ul class="side">
+        <!-- <li class="side__nav dropdown__nav">Features
+          <img src="./images/icon-arrow-down.svg" alt="">
+          <ul class="show__inner__nav">
+            <li class="inner__nav">
+              <a href="#" class="">
+                <span>
+                  <img src="./images/icon-todo.svg" alt="icon-todo">
+                </span>
+                Todo List
+              </a>
+            </li>
+            <li class="inner__nav">
+              <a href="#" class="">
+                <span>
+                  <img src="./images/icon-calendar.svg" alt="icon-calendar">
+                </span>
+                Calendar
+              </a>
+            </li>
+            <li class="inner__nav">
+              <a href="#" class="">
+                <span>
+                  <img src="./images/icon-reminders.svg" alt="icon-reminders">
+                </span>
+                Reminders
+              </a>
+            </li>
+            <li class="inner__nav">
+              <a href="#" class="">
+                <span>
+                  <img src="./images/icon-planning.svg" alt="icon-planning">
+                </span>
+                Planning
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li class="side__nav dropdown__nav">Company
+          <img src="./images/icon-arrow-down.svg" alt="">
+          <ul class="show__inner__nav">
+            <li class="inner__nav">
+              <a href="#" class="">History
+              </a>
+            </li>
+            <li class="inner__nav">
+              <a href="#" class="">Our Team
+              </a>
+            </li>
+            <li class="inner__nav">
+              <a href="#" class="">Blog
+              </a>
+            </li>
+          </ul>
+        </li> -->
+        
+        <li class="navItems dropdown side__nav dropdown__nav" data-dropdown>
+          <a class="link navLinks" id="hover-f" data-dropdown-button>Features
+            <span><img src="./images/icon-arrow-down.svg" alt="" class="toggle"></span>
+          </a>
+          <ul class="inner-list-features dropdown-menu">
+            <li class="navItems-inner">
+              <a href="#" class="navLinks-inner">
+                <span>
+                  <img src="./images/icon-todo.svg" alt="icon-todo">
+                </span>
+                Todo List
+              </a>
+            </li>
+            <li class="navItems-inner">
+              <a href="#" class="navLinks-inner">
+                <span>
+                  <img src="./images/icon-calendar.svg" alt="icon-calendar">
+                </span>
+                Calendar
+              </a>
+            </li>
+            <li class="navItems-inner">
+              <a href="#" class="navLinks-inner">
+                <span>
+                  <img src="./images/icon-reminders.svg" alt="icon-reminders">
+                </span>
+                Reminders
+              </a>
+            </li>
+            <li class="navItems-inner">
+              <a href="#" class="navLinks-inner">
+                <span>
+                  <img src="./images/icon-planning.svg" alt="icon-planning">
+                </span>
+                Planning
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li class="navItems dropdown side__nav dropdown__nav" data-dropdown>
+          <a class="navLinks link" id="hover-c" data-dropdown-button>Company
+            <span><img src="./images/icon-arrow-down.svg" alt="" class="toggle"></span>
+          </a>
+          <ul class="inner-list-company dropdown-menu">
+            <li class="navItems-inner">
+              <a href="#" class="navLinks-inner link">History
+              </a>
+            </li>
+            <li class="navItems-inner">
+              <a href="#" class="navLinks-inner link">Our Team
+              </a>
+            </li>
+            <li class="navItems-inner">
+              <a href="#" class="navLinks-inner link">Blog
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li class="side__nav">Careers</li>
+        <li class="side__nav">About</li>
+      </ul>
+      <div class="container__btn">
+        <a href="#" class="navLinks link">Login</a> 
+        <a href="#" class="navLinks brd link">Register</a>
+      </div> 
+       
+    </div>
+    <div class="burger__menu">
+    </div>
+    <div class="close__menu">
+    </div>
+   <main class="container">
+    <section class="content">
+      <div class="heading">
+      <h1 class="hero">Make remote work</h1>
+      </div>
+      <div class="description-box">
+      <p class="description">Get your team in sync, no matter your location. Streamline processes,
+      create team rituals, and watch productivity soar.
+      </p>
+      </div>
+      <div class="btn">
+        <button class="learn-more">Learn more</button>
+      </div>
+      <div class="sponsors">
+        <div class="sponsors-brand">
+          <img src="./images/client-databiz.svg" alt="databiz" class="sponsor-img">
+        </div>
+        <div class="sponsors-brand">
+          <img src="./images/client-audiophile.svg" alt="audio phile" class="sponsor-img">
+        </div>
+        <div class="sponsors-brand">
+          <img src="./images/client-meet.svg" alt="meet" class="sponsor-img">
+        </div>
+        <div class="sponsors-brand">
+          <img src="./images/client-maker.svg" alt="maker" class="sponsor-img">
+        </div>
+      </div>
+    </section>
+    <section class="illustrator">
+     <div class="desktop"></div>
+     <div class="container__mobile">
+       <img src="./images/image-hero-mobile.png" alt="" class="mobile">
+     </div>
+    </section>
+  </main>
+  <script src="./Script/dist/js/app.js"></script>
+</body>
+</html> 
